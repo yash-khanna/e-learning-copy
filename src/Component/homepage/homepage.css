@@ -1,0 +1,151 @@
+/* ===========================
+   ====== Search Box ====== 
+   =========================== */
+
+.search {
+  border: 2px solid black;
+  overflow: auto;
+  /* min-width: 40%; */
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+}
+
+.search input[type="text"] {
+  border: 0px;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.search input[type="text"]:focus {
+  outline: 0;
+}
+
+.search input[type="submit"] {
+  border: 0px;
+  background: none;
+  background-color: #cf5c3f;
+  color: #fff;
+  float: right;
+  padding: 10px;
+  border-radius-top-right: 5px;
+  -moz-border-radius-top-right: 5px;
+  -webkit-border-radius-top-right: 5px;
+  border-radius-bottom-right: 5px;
+  -moz-border-radius-bottom-right: 5px;
+  -webkit-border-radius-bottom-right: 5px;
+  cursor: pointer;
+}
+
+.bg-image {
+  /* position: relative; */
+  background:url("../../images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover ; /*Resize the background image to cover the entire container, */
+  width: 100%;
+  height: 400px;
+  z-index:  -2;
+}
+.bg-image > .overlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+.bg-image > .content {
+  /* position: absolute; 
+  top: 20%;
+  left: 25%; */
+  margin-top: 10px;
+
+}
+.heading {
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.heading h2 {
+  margin-top: 10%;
+  color: white;
+  text-shadow:  0 0 1px black, 0 0 1px black;
+  font-weight: 900;
+  font-size: 300%;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif !important;
+}
+
+/* for carasiul */
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+
+.alice-carousel__stage-item * {
+  width: fit-content !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ant-card-actions {
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+}
+
+/* ===========================
+        ====== Medua Query for Search Box ====== 
+        =========================== */
+
+@media only screen and (min-width: 150px) and (max-width: 780px) {
+  .search {
+    margin-left: 0;
+  }
+  .row-search {
+    width: 100%;
+    font-size: xx-small;
+  }
+  .heading h2 {
+    
+    font-size: 270%;
+   
+  }
+}
+
+#navBar {
+  text-align: center;
+  font-size: x-large;
+  padding: 1%;
+}
+
+.example {
+  text-align: center;
+  background: white;
+  /* z-index: 999; */
+  border-radius: 4px;
+  padding-bottom: 5%;
+  z-index: 1;
+  /* padding-top: 15%; */
+  margin-top: 0%;
+  /* margin: 20px 0; */
+}
+.ant-card-meta-description {
+  color: #c64572 !important;
+}
+
+
+
+
+
+
+
+

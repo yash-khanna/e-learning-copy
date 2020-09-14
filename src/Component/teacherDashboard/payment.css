@@ -1,0 +1,8 @@
+/* Coded By: yash Khanna 
+THis is a css file for the H1,H5 tag on teacherDashboard/dashboard/payment.js CSS*/
+
+#hello {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}

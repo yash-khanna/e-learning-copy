@@ -1,0 +1,137 @@
+.ant-card-head {
+  background: #d3d3d3 !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  background-color: #b3b3b3;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.submit1,
+.submit2 {
+  margin-left: 35%;
+}
+
+.ant-btn-primary {
+  background-color: #c64752 !important;
+  border-color: #c64752 !important;
+}
+
+.radio {
+  position: relative !important;
+  /* margin-left: 85px !important; */
+  /* margin-top: 6px; */
+}
+
+
+
+
+
+
+/* New page CSS */
+h2{
+  font-family: "Roboto slab", sans-serif;
+
+}
+.main-div {
+  justify-content: center;
+  margin: 2% 2% 2% 2%;
+}
+h6 {
+  font-family: "Roboto slab", sans-serif;
+}
+img {
+  min-width: 200px;
+}
+.child-div-1 {
+  margin-left: 7%;
+  flex: 3;
+}
+.child-div-2 {
+  margin-right: 6%;
+  flex: 1;
+}
+.main-div-2{
+  margin-left: 12%;
+}
+@media (min-width: 1001px) {
+  .main-div {
+    display: flex;
+  }
+}
+
+@media (max-width: 1001px) {
+  .child-div-2 {
+    margin-left: 3%;
+  }
+  img {
+    width: 450px;
+    height: 300px;
+  }
+  .child-div-1 {
+    margin-left: 13%;
+  }
+}
+@media (max-width: 700px) {
+  img {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  img {
+    width: 250px;
+    height: 200px;
+  }
+  .main-div-2{
+    margin-left: 1%;
+  }
+}
+
+
+
+
+.card-container p {
+  margin: 0;
+}
+.card-container > .ant-tabs-card > .ant-tabs-content {
+  max-height: 100%;
+  margin-top: -16px;
+  max-width: 1000px;
+  min-width: 150px;
+}
+[data-theme='compact'] .card-container > .ant-tabs-card > .ant-tabs-content {
+  height: 120px;
+  margin-top: -8px;
+}
+
+[data-theme='compact'] .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane,
+.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+
+[data-theme='compact'] .card-container > .ant-tabs-card > .ant-tabs-bar,
+.card-container > .ant-tabs-card > .ant-tabs-bar {
+  border-color: #fff;
+}
+
+[data-theme='compact'] .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab,
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+}
+
+[data-theme='compact'] .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active,
+.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
+}
+
+/* .ant-tabs.ant-tabs-card .ant-tabs-card-content > .ant-tabs-tabpane, .ant-tabs.ant-tabs-editable-card .ant-tabs-card-content > .ant-tabs-tabpane {
+  -webkit-transition: none !important;
+  transition: none !important;
+  min-height: 200px;
+} */

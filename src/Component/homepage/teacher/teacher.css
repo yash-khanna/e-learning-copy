@@ -1,0 +1,10 @@
+.child-div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 4% 2% 2% 0%;
+    text-align: justify;
+    text-justify: auto;
+}
+.child-div h3 {
+    text-align: center;
+    margin-bottom: 3% !important;
+}
